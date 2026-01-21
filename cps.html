@@ -152,11 +152,13 @@
         <div class="content">
             <div class="hdr col-left">Заявка на товар</div>
             <div class="form-box col-right">
-                <form action="/api/call" id="form3" method="post">
-                    <input class="inp-1" name="name" placeholder="Ваше Имя" type="text">
-                    <input class="inp-2" id="input3" name="phone" placeholder="*Ваш телефон" required="required" type="text">
+                <form action="https://api.web3forms.com/submit" method="POST" id="form3">
+                    <input type="hidden" name="subject" value="Заявка на товар">
+                    <input type="hidden" name="from_name" value="СТОЛИЦА - Сайт">
+                    <input type="hidden" name="replyto" value="info@stolica-12.ru">
+                    <input class="inp-1" name="name" placeholder="Ваше Имя" type="text" required="">
+                    <input class="inp-2" id="input3" name="phone" placeholder="*Ваш телефон" required="" type="text">
                     <input type="submit" value="Перезвоните мне">
-                    <input name="call" type="hidden" value="send">
                 </form>
             </div>
             <div class="clear"></div>
@@ -215,11 +217,13 @@
             </div>
             <div class="form-box col-right scale2">
                 <div class="hdr">Заявка на расчет с доставкой</div>
-                <form action="/api/call" id="form4" method="post">
-                    <input class="inp-1" name="name" placeholder="Ваше Имя" type="text">
-                    <input class="inp-2" id="input4" name="phone" placeholder="*Телефон" required="required" type="text">
+                <form action="https://api.web3forms.com/submit" method="POST" id="form4">
+                    <input type="hidden" name="subject" value="Заявка на расчет с доставкой">
+                    <input type="hidden" name="from_name" value="СТОЛИЦА - Сайт">
+                    <input type="hidden" name="replyto" value="info@stolica-12.ru">
+                    <input class="inp-1" name="name" placeholder="Ваше Имя" type="text" required="">
+                    <input class="inp-2" id="input4" name="phone" placeholder="*Телефон" required="" type="text">
                     <input type="submit" value="Получить расчет">
-                    <input name="call" type="hidden" value="send">
                 </form>
             </div>
             <div class="clear"></div>
@@ -230,11 +234,13 @@
         <div class="form-box col-right">
             <div class="hdr">Заказать звонок</div>
             <div class="text">Оставьте заявку, и наш менеджер свяжется с вами в ближайшее время</div>
-            <form action="/api/call" id="form5" method="post">
-                <input class="inp-1" name="name" placeholder="Ваше Имя" type="text">
-                <input class="inp-2" id="input5" name="phone" placeholder="*Ваш телефон" required="required" type="text">
+            <form action="https://api.web3forms.com/submit" method="POST" id="form5">
+                <input type="hidden" name="subject" value="Заказать звонок">
+                <input type="hidden" name="from_name" value="СТОЛИЦА - Сайт">
+                <input type="hidden" name="replyto" value="info@stolica-12.ru">
+                <input class="inp-1" name="name" placeholder="Ваше Имя" type="text" required="">
+                <input class="inp-2" id="input5" name="phone" placeholder="*Ваш телефон" required="" type="text">
                 <input type="submit" value="Перезвоните мне">
-                <input name="call" type="hidden" value="send">
             </form>
             <div class="bottom-text">Ваши данные в сохранности и будут<br>использованы только для оперативной<br>связи с
                 Вами по Вашим заказам
@@ -243,7 +249,7 @@
     </div>
 </div>
 <div class="opacity" style="display:none"></div>
-<script src="/stolica12.3946abd3.js"></script>
+<script src="/stolica12.c6a57887.js"></script>
 <!--<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&load=Map,Placemark&onload=map_init"-->
 <!--        type="text/javascript"></script>-->
 <!--<script src="//api.venyoo.ru/wnew.js?wc=venyoo/default/science&widget_id=5364628938555392"-->
