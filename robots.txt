@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://stolica-12.ru/sitemap.xml
