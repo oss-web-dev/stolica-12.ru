@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-01-26T15:26:29.883Z">
+<yml_catalog date="2026-01-26T16:51:06.408Z">
   <shop>
     <name>Столица</name>
     <company>ООО ПФО "Столица"</company>
@@ -33,7 +33,7 @@
       
         <offer id="1" available="true">
           <name>Бетон М-100</name>
-          <url>https://stolica-12.ru/beton</url>
+          <url>https://stolica-12.ru/beton/m100</url>
           <price>5000</price>
           <currencyId>RUR</currencyId>
           <categoryId>1</categoryId>
@@ -45,7 +45,7 @@
       
         <offer id="2" available="true">
           <name>Бетон М-150</name>
-          <url>https://stolica-12.ru/beton</url>
+          <url>https://stolica-12.ru/beton/m150</url>
           <price>5400</price>
           <currencyId>RUR</currencyId>
           <categoryId>1</categoryId>
@@ -57,7 +57,7 @@
       
         <offer id="3" available="true">
           <name>Бетон М-200</name>
-          <url>https://stolica-12.ru/beton</url>
+          <url>https://stolica-12.ru/beton/m200</url>
           <price>6100</price>
           <currencyId>RUR</currencyId>
           <categoryId>1</categoryId>
@@ -69,7 +69,7 @@
       
         <offer id="4" available="true">
           <name>Бетон М-250</name>
-          <url>https://stolica-12.ru/beton</url>
+          <url>https://stolica-12.ru/beton/m250</url>
           <price>6600</price>
           <currencyId>RUR</currencyId>
           <categoryId>1</categoryId>
@@ -81,7 +81,7 @@
       
         <offer id="5" available="true">
           <name>Бетон М-300</name>
-          <url>https://stolica-12.ru/beton</url>
+          <url>https://stolica-12.ru/beton/m300</url>
           <price>6900</price>
           <currencyId>RUR</currencyId>
           <categoryId>1</categoryId>
