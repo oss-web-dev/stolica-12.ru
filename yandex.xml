@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-01-26T16:51:06.408Z">
+<yml_catalog date="2026-01-27T17:52:36.844Z">
   <shop>
     <name>Столица</name>
     <company>ООО ПФО "Столица"</company>
@@ -12,18 +12,22 @@
     <categories>
       
       <category id="1">
-        Бетон товарный
+        Бетон на гравии
       </category>
     
       <category id="2">
-        Керамзитобетон
+        Бетон на гранитном щебне
       </category>
     
       <category id="3">
-        Раствор цементный
+        Керамзитобетон
       </category>
     
       <category id="4">
+        Раствор цементный
+      </category>
+    
+      <category id="5">
         Цементно-песчаная смесь
       </category>
     
@@ -92,45 +96,93 @@
         </offer>
       
         <offer id="6" available="true">
-          <name>Керамзитобетон М75</name>
-          <url>https://stolica-12.ru/keramzitobeton</url>
-          <price>6300</price>
+          <name>Бетон М-350</name>
+          <url>https://stolica-12.ru/beton/m350</url>
+          <price>7800</price>
           <currencyId>RUR</currencyId>
-          <categoryId>2</categoryId>
+          <categoryId>1</categoryId>
 
-          <param name="Класс">В5</param>
-          
-          
+          <param name="Класс">В25</param>
+          <param name="Морозостойкость">F200</param>
+          <param name="Водонепроницаемость">W8</param>
         </offer>
       
         <offer id="7" available="true">
-          <name>Керамзитобетон М100</name>
-          <url>https://stolica-12.ru/keramzitobeton</url>
-          <price>6800</price>
-          <currencyId>RUR</currencyId>
-          <categoryId>2</categoryId>
-
-          <param name="Класс">В7,5</param>
-          
-          
-        </offer>
-      
-        <offer id="8" available="true">
-          <name>Керамзитобетон М150</name>
-          <url>https://stolica-12.ru/keramzitobeton</url>
+          <name>Бетон М-200</name>
+          <url>https://stolica-12.ru/beton_gr/m200</url>
           <price>7500</price>
           <currencyId>RUR</currencyId>
           <categoryId>2</categoryId>
 
-          <param name="Класс">В12,5</param>
-          
-          
+          <param name="Класс">В15</param>
+          <param name="Морозостойкость">F100</param>
+          <param name="Водонепроницаемость">W4</param>
+        </offer>
+      
+        <offer id="8" available="true">
+          <name>Бетон М-250</name>
+          <url>https://stolica-12.ru/beton_gr/m250</url>
+          <price>7900</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2</categoryId>
+
+          <param name="Класс">В20</param>
+          <param name="Морозостойкость">F200</param>
+          <param name="Водонепроницаемость">W6</param>
         </offer>
       
         <offer id="9" available="true">
-          <name>Раствор М75</name>
-          <url>https://stolica-12.ru/rastvor</url>
-          <price>3500</price>
+          <name>Бетон М-300</name>
+          <url>https://stolica-12.ru/beton_gr/m300</url>
+          <price>8300</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2</categoryId>
+
+          <param name="Класс">В22,5</param>
+          <param name="Морозостойкость">F200</param>
+          <param name="Водонепроницаемость">W6</param>
+        </offer>
+      
+        <offer id="10" available="true">
+          <name>Бетон М-350</name>
+          <url>https://stolica-12.ru/beton_gr/m350</url>
+          <price>8900</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2</categoryId>
+
+          <param name="Класс">В25</param>
+          <param name="Морозостойкость">F200</param>
+          <param name="Водонепроницаемость">W8</param>
+        </offer>
+      
+        <offer id="11" available="true">
+          <name>Бетон М-400</name>
+          <url>https://stolica-12.ru/beton_gr/m400</url>
+          <price>9300</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2</categoryId>
+
+          <param name="Класс">В30</param>
+          <param name="Морозостойкость">F300</param>
+          <param name="Водонепроницаемость">W10</param>
+        </offer>
+      
+        <offer id="12" available="true">
+          <name>Бетон М-450</name>
+          <url>https://stolica-12.ru/beton_gr/m450</url>
+          <price>9800</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>2</categoryId>
+
+          <param name="Класс">В35</param>
+          <param name="Морозостойкость">F300</param>
+          <param name="Водонепроницаемость">W12</param>
+        </offer>
+      
+        <offer id="13" available="true">
+          <name>Керамзитобетон М75</name>
+          <url>https://stolica-12.ru/keramzitobeton/m75</url>
+          <price>6300</price>
           <currencyId>RUR</currencyId>
           <categoryId>3</categoryId>
 
@@ -139,10 +191,10 @@
           
         </offer>
       
-        <offer id="10" available="true">
-          <name>Раствор М100</name>
-          <url>https://stolica-12.ru/rastvor</url>
-          <price>4100</price>
+        <offer id="14" available="true">
+          <name>Керамзитобетон М100</name>
+          <url>https://stolica-12.ru/keramzitobeton/m100</url>
+          <price>6800</price>
           <currencyId>RUR</currencyId>
           <categoryId>3</categoryId>
 
@@ -151,10 +203,10 @@
           
         </offer>
       
-        <offer id="11" available="true">
-          <name>Раствор М150</name>
-          <url>https://stolica-12.ru/rastvor</url>
-          <price>4900</price>
+        <offer id="15" available="true">
+          <name>Керамзитобетон М150</name>
+          <url>https://stolica-12.ru/keramzitobeton/m150</url>
+          <price>7500</price>
           <currencyId>RUR</currencyId>
           <categoryId>3</categoryId>
 
@@ -163,36 +215,72 @@
           
         </offer>
       
-        <offer id="12" available="true">
+        <offer id="16" available="true">
+          <name>Раствор М75</name>
+          <url>https://stolica-12.ru/rastvor/m75</url>
+          <price>3500</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>4</categoryId>
+
+          <param name="Класс">В5</param>
+          
+          
+        </offer>
+      
+        <offer id="17" available="true">
+          <name>Раствор М100</name>
+          <url>https://stolica-12.ru/rastvor/m100</url>
+          <price>4100</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>4</categoryId>
+
+          <param name="Класс">В7,5</param>
+          
+          
+        </offer>
+      
+        <offer id="18" available="true">
+          <name>Раствор М150</name>
+          <url>https://stolica-12.ru/rastvor/m150</url>
+          <price>4900</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>4</categoryId>
+
+          <param name="Класс">В12,5</param>
+          
+          
+        </offer>
+      
+        <offer id="19" available="true">
           <name>Раствор М200</name>
-          <url>https://stolica-12.ru/rastvor</url>
+          <url>https://stolica-12.ru/rastvor/m200</url>
           <price>5500</price>
           <currencyId>RUR</currencyId>
-          <categoryId>3</categoryId>
+          <categoryId>4</categoryId>
 
           <param name="Класс">В15</param>
           
           
         </offer>
       
-        <offer id="13" available="true">
+        <offer id="20" available="true">
           <name>ЦПС М75</name>
-          <url>https://stolica-12.ru/cps</url>
+          <url>https://stolica-12.ru/cps/m75</url>
           <price>3400</price>
           <currencyId>RUR</currencyId>
-          <categoryId>4</categoryId>
+          <categoryId>5</categoryId>
 
           
           
           
         </offer>
       
-        <offer id="14" available="true">
+        <offer id="21" available="true">
           <name>ЦПС М100</name>
-          <url>https://stolica-12.ru/cps</url>
+          <url>https://stolica-12.ru/cps/m100</url>
           <price>4000</price>
           <currencyId>RUR</currencyId>
-          <categoryId>4</categoryId>
+          <categoryId>5</categoryId>
 
           
           
