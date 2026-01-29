@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-01-29T12:23:30.022Z">
+<yml_catalog date="2026-01-29T18:13:03.301Z">
   <shop>
     <name>Столица</name>
     <company>ООО ПФО "Столица"</company>
@@ -29,6 +29,18 @@
     
       <category id="5">
         Цементно-песчаная смесь
+      </category>
+    
+      <category id="6">
+        Автобетононасос
+      </category>
+    
+      <category id="7">
+        Автобетоносмеситель
+      </category>
+    
+      <category id="8">
+        Самосвал
       </category>
     
     </categories>
@@ -287,6 +299,46 @@
           
         </offer>
       
+        <offer id="22" available="true">
+          <name>ELBA (36 метров)</name>
+          <url>https://stolica-12.ru/uslugi/avtobetononasos</url>
+          <price>35000</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>6</categoryId>
+        </offer>
+        
+        <offer id="23" available="true">
+          <name>ZOOMLION (38 метров)</name>
+          <url>https://stolica-12.ru/uslugi/avtobetononasos</url>
+          <price>35000</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>6</categoryId>
+        </offer>
+        
+        <offer id="24" available="true">
+          <name>Автобетоносмеситель 6 м³</name>
+          <url>https://stolica-12.ru/uslugi/avtobetonosmesitel</url>
+          <price>5000</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7</categoryId>
+        </offer>
+        
+        <offer id="25" available="true">
+          <name>Автобетоносмеситель 9 м³</name>
+          <url>https://stolica-12.ru/uslugi/avtobetonosmesitel</url>
+          <price>7500</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>7</categoryId>
+        </offer>
+        
+        <offer id="26" available="true">
+          <name>Самосвал 40 тонн</name>
+          <url>https://stolica-12.ru/uslugi/samosval</url>
+          <price>6000</price>
+          <currencyId>RUR</currencyId>
+          <categoryId>8</categoryId>
+        </offer>
+        
     </offers>
   </shop>
 </yml_catalog>
